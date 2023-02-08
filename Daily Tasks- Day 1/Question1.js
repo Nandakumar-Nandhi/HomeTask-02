@@ -10,7 +10,7 @@ Output: String with comma delimited elements of the array in th same order.
 
 "h,o,l,a" 
 */
-function printArray(array)
+function ConvertArrayToString(array)
 {
     let answer=""
     for(var i=0;i<array.length-1;i++)
@@ -22,4 +22,4 @@ function printArray(array)
 }
 
 var array=["h","0","l","a"];
-console.log(printArray(array));
+console.log(ConvertArrayToString(array));
