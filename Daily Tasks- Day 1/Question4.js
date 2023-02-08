@@ -11,7 +11,7 @@ Every day you rent the car costs $40. If you rent the car for 7 or more days, yo
 Write a code that gives out the total amount for different days(d).
 */
 
-function rentalCarCost(days) {
+function findCarRentalCosts(days) {
     if(days>=7)
       {
         return (40*days)-50;
@@ -27,4 +27,4 @@ function rentalCarCost(days) {
 }
 
 var days=4;
-console.log(rentalCarCost(days));
+console.log(findCarRentalCosts(days));
