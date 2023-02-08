@@ -14,7 +14,7 @@ Examples(Operator, value1, value2) --> output
 ('/', 49, 7) --> 7
 */
 
-function basicOp(operation, value1, value2) {
+function calculateBasicOperations(operation, value1, value2) {
     switch (operation) {
         case '+':
             return value1 + value2;
@@ -30,4 +30,4 @@ function basicOp(operation, value1, value2) {
 }
 
 var operation='+',value1=10,value2=20;
-console.log(basicOp(operation,value1,value2));
+console.log(calculateBasicOperations(operation,value1,value2));
