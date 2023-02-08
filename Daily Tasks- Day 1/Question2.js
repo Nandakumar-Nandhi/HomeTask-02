@@ -11,9 +11,9 @@ Examples:
 -34: 34
 */
 
-function opposite(number) {
+function findOppositeOfNumber(number) {
     return(-number);
   }
 
 var number=-1;
-console.log(opposite(number));
+console.log(findOppositeOfNumber(number));
