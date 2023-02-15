@@ -32,7 +32,7 @@ Code Examples
 function prefill(num, value) {
     if(typeof num === 'boolean' || ~~num != num || +num < 0)
         throw new TypeError(num + ' is invalid');
-    return Array.apply(null, Array(+num)).map(function (d,i) { return value })
+    return Array.apply(null, Array(+num)).map(function () { return value })
 }
 
 console.log(prefill(3,1));
